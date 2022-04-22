@@ -3,9 +3,29 @@
 # ruby 5-loops.rb
 
 # Infinite Tacos -> Finite Tacos
+
+# index = 0
 # loop do
-#   puts "tacos!"
+#    if index == 5
+#     break
+#    end
+#    puts "tacos!"
+#    index = index + 1 
 # end
 
 # Loop through tacos
-# tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+
+tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+# i = 0
+# loop do
+#     if i == tacos.count
+#         break
+#     end
+#     taco_type = puts tacos [i]
+#     puts taco_type
+#     i = i +1
+# end
+
+for taco in tacos
+    puts taco
+end
